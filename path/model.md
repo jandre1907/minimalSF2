@@ -1,5 +1,10 @@
 Model
 =====
+genesix affected tables:
+* pedcab : commande client fournisseur 
+* tracab : transferts
+* pwb_plan_recep : appointment
+* com_alb : numéro de réception de la table
 
 Command
 =======
