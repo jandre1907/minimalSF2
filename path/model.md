@@ -1,21 +1,30 @@
-Planning Reception
-==================
+Model
+=====
 
-Login:
-------
-* LDAP
-* different access right exists
+Command
+=======
+* id
+* Appointment id nullable
+* denied boolean
+* central/warehouse
 
-Homepage:
----------
-url: siege.php
+Appointment
+===========
 
-example:
-`http://a19web-pdb09001/dev/planning_recep/app/siege.php?depot=090-SIEGE&sgi_user=S2536428&nom_user=Stephane%20Martin&debutsem=09/16/2014&jour=16&mois=09&annee=2014#`
-
-form:
-* date
-* sessionid
-* current store
-* targeted store
-* sgi LDAP
+* warehouse_id
+* user
+* command_id 
+* delivery_expected
+* delivery_date
+* delivery_time
+* delivery_today
+* delivery_mode
+* delivery_type
+* first_reception_date
+* last_reception_date
+* provider_name
+* provider_code
+* Nb ligne rupture	
+* package_quantity
+* pallet_quantity
+* Comment
