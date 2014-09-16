@@ -91,3 +91,7 @@ Form:
 * Cmd Centrale/Dépôt		
 * Commentaire
 
+
+Actions:
+* show history
+* show article
