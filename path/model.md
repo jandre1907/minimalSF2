@@ -5,6 +5,7 @@ genesix affected tables:
 * tracab : transferts
 * pwb_plan_recep : appointment
 * com_alb : numéro de réception de la table
+* pwb_even_com : l’historique des informations d’une commande
 
 Command
 =======
