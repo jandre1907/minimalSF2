@@ -33,3 +33,8 @@ Appointment
 * package_quantity
 * pallet_quantity
 * Comment
+
+Warehouse
+=========
+id
+type
