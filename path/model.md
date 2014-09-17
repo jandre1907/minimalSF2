@@ -2,10 +2,15 @@ Model
 =====
 genesix affected tables:
 * pedcab : commande client fournisseur 
-* tracab : transferts
+* peddet : commande reçue partiellement ou entièrement
 * pwb_plan_recep : appointment
-* com_alb : numéro de réception de la table
+* com_alb : reçus des commandes (bon de réception)
+* com_alb_dep : montant par famille
 * pwb_even_com : l’historique des informations d’une commande
+* prove : table des fournisseur
+* cde_clifour: table de liaison commande_fournisseur/client
+* pla_tracab : table des transferts
+
 
 Command
 =======
